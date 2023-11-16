@@ -1,0 +1,43 @@
+.pageOne {
+    text-align: center;
+    width     : 100%;
+}
+
+h1 {
+    margin-top: 30vh;
+    font-size : 50px;
+}
+
+.scrollDown {
+    position : absolute;
+    bottom   : 0;
+    width    : 100%;
+    transform: translateY(-10vh);
+}
+
+
+
+.icon {
+    margin-top: 10px;
+    width     : 100%;
+    font-size : 50px;
+    cursor    : pointer;
+    animation : floatUpDown 2s ease infinite;
+    /* Sử dụng animation floatUpDown */
+}
+
+/* Định nghĩa animation floatUpDown */
+@keyframes floatUpDown {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    /* 0% và 100% là vị trí ban đầu */
+    50% {
+        transform: translateY(-10px);
+    }
+
+    /* 50% là vị trí nổi lên */
+}

@@ -1,0 +1,72 @@
+#div1,
+#div2,
+#div3,
+#div4 {
+    height : 100vh;
+    display: flex;
+}
+
+.nav {
+    position : fixed;
+    left     : 50%;
+    top      : 2vh;
+    transform: translate(-50%, -50%);
+}
+
+
+.btnNav {
+    background-color: #0078d0;
+    border          : 0;
+    border-radius   : 25px;
+    color           : #fff;
+    cursor          : pointer;
+    font-weight     : 600;
+    position        : relative;
+    text-align      : center;
+    transition      : all .3s;
+    padding-left    : 15px;
+    padding-right   : 15px;
+    margin-left: 10px;
+}
+.active{
+    background-color: #fa8c16;
+
+}
+.btnNav:before {
+    background-image: linear-gradient(#fff 0, rgba(255, 255, 255, 0) 100%);
+    border-radius   : 125px;
+    content         : "";
+    height          : 50%;
+    left            : 4%;
+    opacity         : .5;
+    position        : absolute;
+    top             : 0;
+    transition      : all .3s;
+    width           : 92%;
+}
+
+.btnNav:hover {
+    box-shadow: rgba(255, 255, 255, .2) 0 3px 15px inset, rgba(0, 0, 0, .1) 0 3px 5px, rgba(0, 0, 0, .1) 0 10px 13px;
+    transform : scale(1.05);
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+// =========== TITLE NAV ===========
+.divider{
+    height: 10vh;
+    margin-top: 5vh;
+    line-height: 9.9vh;
+}
+
+.horizontal-line {
+    width: 80%; /* Đặt chiều rộng của đường gạch ngang */
+    height: 0.1vh; /* Đặt chiều cao của đường gạch ngang */
+    background-color: black; /* Màu nền của đường gạch ngang */
+    margin: 0 auto; /* Để căn giữa đường gạch ngang, sử dụng margin: 0 auto; */
+}
+.down-the-line{
+    margin: 0;
+}

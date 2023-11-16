@@ -1,0 +1,106 @@
+.pageTwo {
+    text-align: center;
+    width     : 100%;
+}
+
+.square {
+    width     : 25%;
+    height    : 15vh;
+    border    : 1vh solid #2f54eb;
+    transition: border 1s;
+    margin-top: 3.4vh;
+}
+
+//================== 4 height + 5 margin-top + 4 border === 100vh
+
+.square {
+    margin-left: 5%;
+}
+
+//hover
+.square:hover {
+    border    : 1vh solid #a0d911;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: box-shadow 1s, border 1s;
+
+}
+
+/* Square chẵn */
+.square:nth-child(2n) {
+    margin-left : auto;
+    margin-right: 5%;
+}
+
+
+@keyframes slideInLeft {
+    from {
+        opacity  : 0;
+        transform: translateX(-100%);
+        width    : 0;
+    }
+
+    to {
+        opacity  : 1;
+        transform: translateX(0%);
+        width    : 25%;
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        opacity  : 0;
+        transform: translateX(100%);
+        width    : 0;
+    }
+
+    to {
+        opacity  : 1;
+        transform: translateX(0%);
+        width    : 25%;
+    }
+}
+
+@keyframes slideInRightOut {
+    from {
+        opacity  : 1;
+        transform: translateX(0);
+        width    : 25%;
+    }
+
+    to {
+        opacity  : 0;
+        transform: translateX(100%);
+        width    : 0;
+    }
+}
+
+@keyframes slideInLeftOut {
+    from {
+        opacity  : 1;
+        transform: translateX(0);
+        width    : 25%;
+    }
+
+    to {
+        opacity  : 0;
+        transform: translateX(-100%);
+        width    : 0;
+    }
+}
+
+.out:nth-child(2n) {
+    animation: slideInRightOut 0.5s linear forwards,
+}
+
+.out {
+    animation: slideInLeftOut 0.5s linear forwards,
+
+}
+
+.running:nth-child(2n) {
+    animation: slideInRight 0.5s linear
+}
+
+.running {
+    animation: slideInLeft 0.5s linear
+}
