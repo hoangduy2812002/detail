@@ -53,16 +53,16 @@ export default function PageFour() {
   return (
     <>
       <div className={pageStyle["pageFour"]}>
-        <TitleNav title={'Personal project'}
+        <TitleNav title={'Individual projects'}
           language={'React.js & java & node.js'}
-          description={'Social networks like Facebook: Create posts, make friends, comment, text, share,... '}
+          description={'Social networks like Facebook: Create posts, make friends, comment, text, share,...'}
         />
         <p className={pageStyle['down-the-line']}></p>
         <div id='divOne' className={`${pageStyle["square"]} ${pageStyle[visibleDivs.includes('divOne') ? 'out' : 'running']}`} >
-          User Interface (UI) Design
+          User interface (UI) design
         </div>
         <div id='divTwo' className={`${pageStyle["square"]} ${pageStyle[visibleDivs.includes('divTwo') ? 'out' : 'running']}`} >
-          Use the socket to message, like, comment, notify, and create posts in real time
+          Use the dock to message, like, comment, notify and create posts in real time
         </div>
         <div id='divThree' className={`${pageStyle["square"]} ${pageStyle[visibleDivs.includes('divThree') ? 'out' : 'running']}`} >
           The back-end uses java and node.js as server sockets

@@ -53,17 +53,17 @@ export default function PageThree() {
     <div className={pageStyle["pageThree"]}>
       <TitleNav title={'Human resource management for the company'}
         language={'React.js'}
-        description={'Manage work progress, employee timekeeping, timekeeping reports, and job management'}
+        description={'Work progress management, employee timekeeping, attendance reporting and work management'}
       />
       <p className={pageStyle['down-the-line']}></p>
       <div id='divOne' className={`${pageStyle["square"]} ${pageStyle[visibleDivs.includes('divOne') ? 'out' : 'running']}`} >
         Design home page interface, statistics, login, personal account management, adding users, decentralizing permissions, some charts,...
       </div>
       <div id='divTwo' className={`${pageStyle["square"]} ${pageStyle[visibleDivs.includes('divTwo') ? 'out' : 'running']}`} >
-        Add members and drag and drop task progress like teamwork and project management software, such as Trello
+        Add members and drag and drop task progress such as teamwork and project management software, such as Trello
       </div>
       <div id='divThree' className={`${pageStyle["square"]} ${pageStyle[visibleDivs.includes('divThree') ? 'out' : 'running']}`} >
-        Change light and dark theme color
+        Change light and dark theme colors
       </div>
       <div id='divFour' className={`${pageStyle["square"]} ${pageStyle[visibleDivs.includes('divFour') ? 'out' : 'running']}`}>
         Responsive web design: Desktop ,Tablet, Mobile

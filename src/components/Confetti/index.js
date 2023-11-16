@@ -14,7 +14,7 @@ export default function Confetti() {
         getData()
 		const timeOut = setInterval(()=>{
             getData(100)
-        },5000)
+        },3500)
 
         return ()=>clearInterval(timeOut);
 	}, []);
@@ -44,7 +44,7 @@ export default function Confetti() {
 					origin: { x: randomInRange(0.7, 0.9), y: Math.random() - 0.2 }
 				})
 			);
-		}, second ?? 10);
+		}, second ?? 20);
     }
 
 	return null;

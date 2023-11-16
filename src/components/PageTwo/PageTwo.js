@@ -52,19 +52,19 @@ export default function PageTwo() {
   return (
     <>
       <div className={pageStyle["pageTwo"]}>
-        <TitleNav title={'Management and supervision'}
+        <TitleNav title={'Management and monitoring'}
           language={'React.js'}
-          description={'Manage environmental monitoring data of state agencies'}
+          description={'Management of environmental monitoring data of state agencies'}
         />
         <p className={pageStyle['down-the-line']}></p>
         <div id='divOne' className={`${pageStyle["square"]} ${pageStyle[visibleDivs.includes('divOne') ? 'out' : 'running']}`} >
-          Design home page interface, configuration, statistics, login, personal account management, system configuration, some charts,...
+          Home interface design, configuration, statistics, login, personal account management, system configuration, some charts,...
         </div>
         <div id='divTwo' className={`${pageStyle["square"]} ${pageStyle[visibleDivs.includes('divTwo') ? 'out' : 'running']}`} >
-          Provides bilingual functions in English and Vietnamese
+          Provide bilingual functions in English and Vietnamese
         </div>
         <div id='divThree' className={`${pageStyle["square"]} ${pageStyle[visibleDivs.includes('divThree') ? 'out' : 'running']}`} >
-          Change light and dark theme color
+          Change light and dark theme colors
         </div>
         <div id='divFour' className={`${pageStyle["square"]} ${pageStyle[visibleDivs.includes('divFour') ? 'out' : 'running']}`}>
           Responsive web design: Desktop ,Tablet, Mobile
