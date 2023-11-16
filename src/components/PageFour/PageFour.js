@@ -53,9 +53,9 @@ export default function PageFour() {
   return (
     <>
       <div className={pageStyle["pageFour"]}>
-        <TitleNav title={'Dự án cá nhân'}
+        <TitleNav title={'Personal project'}
           language={'React.js & java & node.js'}
-          description={'Mạng xã hội giống facebook: Tạo bài viết, kết bạn, comment, nhắn tin, share,... '}
+          description={'Social networks like Facebook: Create posts, make friends, comment, text, share,... '}
         />
         <p className={pageStyle['down-the-line']}></p>
         <div id='divOne' className={`${pageStyle["square"]} ${pageStyle[visibleDivs.includes('divOne') ? 'out' : 'running']}`} >
@@ -82,7 +82,6 @@ export default function PageFour() {
           >
             <div>Tiktok: </div> &nbsp;
             <div className={pageStyle['footer-content-link']}
-
             >
               https://www.tiktok.com/@dtapcode
             </div>
