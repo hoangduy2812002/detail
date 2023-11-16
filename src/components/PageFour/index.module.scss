@@ -85,16 +85,29 @@
     animation: slideStart 0.5s linear;
 }
 
-.end{
+.footer{
     background: #fff;
     position: absolute;
     width: 100%;
     bottom: 0px;
-    height: 70px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-content-email{
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 40px;
 }
-.end-email{
+.footer-content-tiktok{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    height: calc(100% - 40px);
+}
+.footer-content-link{
     font-weight: bold;
 }

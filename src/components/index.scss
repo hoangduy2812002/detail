@@ -15,10 +15,9 @@
 
 
 .btnNav {
-    background-color: #0078d0;
+    background-color: #f3f6fc;
     border          : 0;
     border-radius   : 25px;
-    color           : #fff;
     cursor          : pointer;
     font-weight     : 600;
     position        : relative;
@@ -29,7 +28,7 @@
     margin-left: 10px;
 }
 .active{
-    background-color: #fa8c16;
+    background-color: #c2e7ff;
 
 }
 .btnNav:before {

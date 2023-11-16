@@ -52,23 +52,22 @@ export default function PageTwo() {
   return (
     <>
       <div className={pageStyle["pageTwo"]}>
-        <TitleNav title={'Quản lý và giám sát'}
+        <TitleNav title={'Management and supervision'}
           language={'React.js'}
-          description={'Quản lý dữ liệu quan trắc môi trường của một cơ quan nhà nước'}
+          description={'Manage environmental monitoring data of state agencies'}
         />
         <p className={pageStyle['down-the-line']}></p>
         <div id='divOne' className={`${pageStyle["square"]} ${pageStyle[visibleDivs.includes('divOne') ? 'out' : 'running']}`} >
-          Thiết kế giao diện trang chủ, cấu hình, thống kê, đăng nhập, quản lý tài khoản cá nhân, cấu hình hệ thống
-          một số biểu đồ,..
+          Design home page interface, configuration, statistics, login, personal account management, system configuration, some charts,...
         </div>
         <div id='divTwo' className={`${pageStyle["square"]} ${pageStyle[visibleDivs.includes('divTwo') ? 'out' : 'running']}`} >
-          Làm chức năng song ngữ tiếng anh và tiếng việt
+          Provides bilingual functions in English and Vietnamese
         </div>
         <div id='divThree' className={`${pageStyle["square"]} ${pageStyle[visibleDivs.includes('divThree') ? 'out' : 'running']}`} >
-          Đổi màu chủ đề light và dark
+          Change light and dark theme color
         </div>
         <div id='divFour' className={`${pageStyle["square"]} ${pageStyle[visibleDivs.includes('divFour') ? 'out' : 'running']}`}>
-          Responsive web design (RWD), Desktop ,Tablet, Mobile
+          Responsive web design: Desktop ,Tablet, Mobile
         </div>
       </div>
     </>

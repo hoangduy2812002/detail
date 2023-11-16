@@ -51,24 +51,22 @@ export default function PageThree() {
 
   return <>
     <div className={pageStyle["pageThree"]}>
-      <TitleNav title={'Quản lý nhân sự cho công ty'}
+      <TitleNav title={'Human resource management for the company'}
         language={'React.js'}
-        description={'Quản lý tiến độ công việc, điểm danh cho nhân viên, báo cáo chấm công, quản lý task'}
+        description={'Manage work progress, employee timekeeping, timekeeping reports, and job management'}
       />
       <p className={pageStyle['down-the-line']}></p>
       <div id='divOne' className={`${pageStyle["square"]} ${pageStyle[visibleDivs.includes('divOne') ? 'out' : 'running']}`} >
-        Thiết kế giao diện trang chủ, thống kê, đăng nhập, quản lý tài khoản cá nhân,
-        thêm người dùng, phân quyền,
-        một số biểu đồ,..
+        Design home page interface, statistics, login, personal account management, adding users, decentralizing permissions, some charts,...
       </div>
       <div id='divTwo' className={`${pageStyle["square"]} ${pageStyle[visibleDivs.includes('divTwo') ? 'out' : 'running']}`} >
-        Có thêm thành viên và kéo thả tiến độ task như các phần mềm quản lý dự án, làm việc nhóm, ví dụ như trello
+        Add members and drag and drop task progress like teamwork and project management software, such as Trello
       </div>
       <div id='divThree' className={`${pageStyle["square"]} ${pageStyle[visibleDivs.includes('divThree') ? 'out' : 'running']}`} >
-        Đổi màu theme light và dark
+        Change light and dark theme color
       </div>
       <div id='divFour' className={`${pageStyle["square"]} ${pageStyle[visibleDivs.includes('divFour') ? 'out' : 'running']}`}>
-        Responsive web design (RWD), Desktop ,Tablet, Mobile
+        Responsive web design: Desktop ,Tablet, Mobile
       </div>
     </div>
   </>

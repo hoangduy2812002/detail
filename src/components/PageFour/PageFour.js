@@ -59,20 +59,34 @@ export default function PageFour() {
         />
         <p className={pageStyle['down-the-line']}></p>
         <div id='divOne' className={`${pageStyle["square"]} ${pageStyle[visibleDivs.includes('divOne') ? 'out' : 'running']}`} >
-          Thiết kế giao diện
+          User Interface (UI) Design
         </div>
         <div id='divTwo' className={`${pageStyle["square"]} ${pageStyle[visibleDivs.includes('divTwo') ? 'out' : 'running']}`} >
-          Dùng socket làm chức năng nhắn tin, like, comment, thông báo, tạo bài viết real time
+          Use the socket to message, like, comment, notify, and create posts in real time
         </div>
         <div id='divThree' className={`${pageStyle["square"]} ${pageStyle[visibleDivs.includes('divThree') ? 'out' : 'running']}`} >
-          Backend dùng java và node.js làm server socket
+          The back-end uses java and node.js as server sockets
         </div>
         <div id='divFour' className={`${pageStyle["square"]} ${pageStyle[visibleDivs.includes('divFour') ? 'out' : 'running']}`}>
-          Responsive web design (RWD), Desktop ,Tablet, Mobile
+          Responsive web design: Desktop ,Tablet, Mobile
         </div>
-        <div className={pageStyle['end']}>
-          <div>Contact: </div> &nbsp; 
-          <div className={pageStyle['end-email']}>hoangduy2812002@gmail.com</div>
+        <div className={pageStyle['footer']}>
+          <div className={pageStyle['footer-content-email']}>
+            <div>Email: </div> &nbsp;
+            <div className={pageStyle['footer-content-link']}>hoangduy2812002@gmail.com</div>
+          </div>
+          <div className={pageStyle['footer-content-tiktok']}
+            onClick={() => {
+              window.open("https://www.tiktok.com/@dtapcode", "_blank");
+            }}
+          >
+            <div>Tiktok: </div> &nbsp;
+            <div className={pageStyle['footer-content-link']}
+
+            >
+              https://www.tiktok.com/@dtapcode
+            </div>
+          </div>
         </div>
       </div>
     </>
