@@ -52,21 +52,23 @@ export default function PageTwo() {
   return (
     <>
       <div className={pageStyle["pageTwo"]}>
-        <TitleNav title={'Page TWO'} />
+        <TitleNav title={'Quản lý và giám sát'}
+          language={'React.js'}
+          description={'Quản lý dữ liệu quan trắc môi trường của một cơ quan nhà nước'}
+        />
         <p className={pageStyle['down-the-line']}></p>
         <div id='divOne' className={`${pageStyle["square"]} ${pageStyle[visibleDivs.includes('divOne') ? 'out' : 'running']}`} >
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQS4lkW5jAd_fklPzbZ9wOYIm_ALgYeI_H3Q&usqp=CAU" alt="img"></img>
+          Thiết kế giao diện trang chủ, cấu hình, thống kê, đăng nhập, quản lý tài khoản cá nhân, cấu hình hệ thống
+          một số biểu đồ,..
         </div>
         <div id='divTwo' className={`${pageStyle["square"]} ${pageStyle[visibleDivs.includes('divTwo') ? 'out' : 'running']}`} >
-          <img src="https://toigingiuvedep.vn/wp-content/uploads/2022/03/hinh-nen-songoku-7-vien-ngoc-rong-full-hd-4k-820x580.jpg" alt="img"></img>
+          Làm chức năng song ngữ tiếng anh và tiếng việt
         </div>
         <div id='divThree' className={`${pageStyle["square"]} ${pageStyle[visibleDivs.includes('divThree') ? 'out' : 'running']}`} >
-          <img src="https://i0.wp.com/thatnhucuocsong.com.vn/wp-content/uploads/2022/01/hinh-nen-songoku-sieu-ngau.jpg?ssl\\\\\\\\u003d1" alt="img"></img>
-
+          Đổi màu chủ đề light và dark
         </div>
         <div id='divFour' className={`${pageStyle["square"]} ${pageStyle[visibleDivs.includes('divFour') ? 'out' : 'running']}`}>
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROuSizwfddBh6S5tp_dcWA7Pkga9tKBnE6vWXgPaUZ1FZ3d76wCCb5kYmK6QiCym3Yxu4&usqp=CAU" alt="img"></img>
-
+          Responsive web design (RWD), Desktop ,Tablet, Mobile
         </div>
       </div>
     </>

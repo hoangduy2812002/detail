@@ -58,9 +58,21 @@ img{
 .divider{
     height: 10vh;
     margin-top: 5vh;
-    line-height: 9.9vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
 }
-
+.title{
+    font-weight: bold;
+    font-size: 22px;
+    width: 100%;
+}
+.language{
+    width: 100%;
+}
+.description{
+    width: 100%;
+}
 .horizontal-line {
     width: 80%; /* Đặt chiều rộng của đường gạch ngang */
     height: 0.1vh; /* Đặt chiều cao của đường gạch ngang */

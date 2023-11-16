@@ -51,19 +51,24 @@ export default function PageThree() {
 
   return <>
     <div className={pageStyle["pageThree"]}>
-      <TitleNav title={'Page Three'} />
+      <TitleNav title={'Quản lý nhân sự cho công ty'}
+        language={'React.js'}
+        description={'Quản lý tiến độ công việc, điểm danh cho nhân viên, báo cáo chấm công, quản lý task'}
+      />
       <p className={pageStyle['down-the-line']}></p>
       <div id='divOne' className={`${pageStyle["square"]} ${pageStyle[visibleDivs.includes('divOne') ? 'out' : 'running']}`} >
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROuSizwfddBh6S5tp_dcWA7Pkga9tKBnE6vWXgPaUZ1FZ3d76wCCb5kYmK6QiCym3Yxu4&usqp=CAU" alt="img"></img>
+        Thiết kế giao diện trang chủ, thống kê, đăng nhập, quản lý tài khoản cá nhân,
+        thêm người dùng, phân quyền,
+        một số biểu đồ,..
       </div>
       <div id='divTwo' className={`${pageStyle["square"]} ${pageStyle[visibleDivs.includes('divTwo') ? 'out' : 'running']}`} >
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROuSizwfddBh6S5tp_dcWA7Pkga9tKBnE6vWXgPaUZ1FZ3d76wCCb5kYmK6QiCym3Yxu4&usqp=CAU" alt="img"></img>
+        Có thêm thành viên và kéo thả tiến độ task như các phần mềm quản lý dự án, làm việc nhóm, ví dụ như trello
       </div>
       <div id='divThree' className={`${pageStyle["square"]} ${pageStyle[visibleDivs.includes('divThree') ? 'out' : 'running']}`} >
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROuSizwfddBh6S5tp_dcWA7Pkga9tKBnE6vWXgPaUZ1FZ3d76wCCb5kYmK6QiCym3Yxu4&usqp=CAU" alt="img"></img>
+        Đổi màu theme light và dark
       </div>
       <div id='divFour' className={`${pageStyle["square"]} ${pageStyle[visibleDivs.includes('divFour') ? 'out' : 'running']}`}>
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROuSizwfddBh6S5tp_dcWA7Pkga9tKBnE6vWXgPaUZ1FZ3d76wCCb5kYmK6QiCym3Yxu4&usqp=CAU" alt="img"></img>
+        Responsive web design (RWD), Desktop ,Tablet, Mobile
       </div>
     </div>
   </>
