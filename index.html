@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- ==========================================
+                  Box Icons
+    =========================================== -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <!-- ==========================================
+                  Custom CSS
+    =========================================== -->
+  <link rel="stylesheet" href="style.css" />
+  <!-- ==========================================
+                  Breakpoint
+    =========================================== -->
+  <link rel="stylesheet" href="breakpoint.css" />
+  <title>My Portfolio</title>
+</head>
+
+<body>
+  <!-- ==========================================
+                    Header
+    =========================================== -->
+  <header class="header">
+    <a href="#" class="logo">Hello
+      <span>hiring manager</span>
+    </a>
+
+    <i class="bx bx-menu" id="menu-icon"></i>
+
+    <nav class="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- ==========================================
+                  Home Section
+    =========================================== -->
+  <section class="home" id="home">
+    <div class="home-content">
+      <h3>Hello, It's Me</h3>
+      <h1>Đặng Hoàng Duy</h1>
+      <h3>And I'm a <span class="multiple-text"></span></h3>
+      <a class="icon-profile" href="" onclick="window.location.href = `mailto:hoangduy2812002@gmail.com`"><i
+          class="bx bxl-gmail"></i></a>
+      <a style="cursor: pointer;"
+        onclick="window.location.href = `mailto:hoangduy2812002@gmail.com`">hoangduy2812002@gmail.com</a>
+      <br />
+      <a class="icon-profile" href="" onclick="window.location.href = `tel:0356190265`"><i
+          class='bx bx-phone-call'></i></a>
+      <a onclick="window.location.href = `tel:0356190265`" style="cursor: pointer;">0356190265</a>
+      <!-- add link for your CV into `href` -->
+    </div>
+
+    <div class="home-img">
+      <img src="assets/image/home1.png" alt="home" />
+    </div>
+  </section>
+
+  <!-- ==========================================
+                  About Section
+    =========================================== -->
+  <section class="about" id="about">
+    <div class="about-img">
+      <img src="assets/image/about1.png" alt="about" />
+    </div>
+
+    <div class="about-content">
+      <h2 class="heading">About <span>Me</span></h2>
+      <p>
+        Front-End and Back-End Developer at Siginx technology company with over 1 year of experience looking for new
+        challenges
+        | Graduated with Bachelor of Information Technology | HTML, CSS, JS, MongoDB, Express.js, React, Node.js, Java
+        components
+        | Looking to bring problem solving and critical thinking skills to your team.
+        | Evaluated and became knowledgeable in new standards,
+        technologies, and trends in website development.
+      </p>
+    </div>
+  </section>
+
+
+  <!-- ==========================================
+                  Portfolio Section
+    =========================================== -->
+  <section class="portfolio" id="projects">
+    <h2 class="heading"><span>Projects </span></h2>
+
+    <div class="portfolio-container">
+      <div class="portfolio-box" style="background: linear-gradient(#13c2c2, #b5f5ec);">
+        <h1 class="title-project">Environmental control</h1>
+        <div class="portfolio-layer">
+          <h1 class="title-image">Environmental control</h1>
+          <p>
+            Implement projects to periodically monitor and monitor environmental quality through indicators of
+            physical and chemical properties of environmental components.
+          </p>
+        </div>
+      </div>
+
+      <div class="portfolio-box" style="background: linear-gradient(#1677ff, #bae0ff);">
+        <h1 class="title-project">Management and supervision</h1>
+        <div class="portfolio-layer">
+          <h4>Management and supervision</h4>
+          <p>
+            Manage, supervise employees and complete screws, bolts,...
+          </p>
+        </div>
+      </div>
+
+      <div class="portfolio-box" style="background: linear-gradient(#13c2c2, #b5f5ec);">
+        <h1 class="title-project">Management system</h1>
+        <div class="portfolio-layer">
+          <h1 class="title-image">Management system</h1>
+          <p>
+            Front-end and back-end development manager in
+            Portfolio Analyst, Employee Tracking and Corporate Accounts
+            Management system
+          </p>
+        </div>
+      </div>
+
+      <div class="portfolio-box" style="background: linear-gradient(#1677ff, #bae0ff);">
+        <h1 class="title-project">Small social network</h1>
+        <div class="portfolio-layer">
+          <h1 class="title-image">Small social network</h1>
+          <p>
+            Small business social network, used for posting and messaging
+          </p>
+        </div>
+      </div>
+
+      <div class="portfolio-box" style="background: linear-gradient(#13c2c2, #b5f5ec);">
+        <h1 class="title-project">Energy management</h1>
+        <div class="portfolio-layer">
+          <h1 class="title-image">Energy management</h1>
+          <p>
+            Energy management, used to check, view data and warn users
+          </p>
+        </div>
+      </div>
+
+      <div class="portfolio-box" style="background: linear-gradient(#1677ff, #bae0ff);">
+        <h1 class="title-project">Some other projects +</h1>
+        <div class="portfolio-layer">
+          <h1 class="title-image">Some other projects +</h1>
+          <p>
+            ...
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================
+                  Contact Section
+    =========================================== -->
+  <section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me</span></h2>
+
+    <form action="#">
+      <div class="input-box">
+        <input type="text" placeholder="Full Name" />
+        <input type="email" placeholder="Email Address" />
+      </div>
+
+      <div class="input-box">
+        <input type="number" placeholder="Mobile Number" />
+        <input type="text" placeholder="Email Subject" />
+      </div>
+      <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+      <input type="submit" value="Send Message" class="btn" />
+    </form>
+  </section>
+
+  <!-- ==========================================
+                  Scroll Reveal
+    =========================================== -->
+  <script src="scrollreveal.js"></script>
+
+  <!-- ==========================================
+                   Typed Js
+    =========================================== -->
+  <!-- <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script> -->
+  <script src="typedUmd.js"></script>
+
+  <!-- ==========================================
+                  Custom Js
+    =========================================== -->
+  <script src="main.js"></script>
+</body>
+
+</html>
